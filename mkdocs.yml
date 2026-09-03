@@ -1,0 +1,13 @@
+site_name: Chip Experiment Docs
+site_url: https://chip-experiment-docs.com
+
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+    
