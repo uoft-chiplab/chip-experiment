@@ -1,11 +1,12 @@
 nav:
-- index.md
-- useful-relations.md
-- apparatus
-- laser-cooling
-- optical-pumping
-- magnetic-trapping
-- optical-dipole-trapping
-- state-preparation
-- imaging
-- thermometry
+	- index.md
+	- useful-relations.md
+	- apparatus
+	- laser-cooling
+	- optical-pumping
+	- magnetic-trapping
+	- optical-dipole-trapping
+	- state-preparation
+	- imaging
+	- thermometry
+
