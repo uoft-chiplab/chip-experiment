@@ -1,8 +1,12 @@
 # Overview
 
-A central repository for chip-lab-related physics and technical knowledge. This is intended to be a unifying reference for all aspects of the experiment that can be edited freely and easily updated.
+A central repository for chip-lab-related physics and technical knowledge. Built with Materials for Mkdocs; for full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-Built with mkdocs; for full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Goals
+* Unify experiment-relevant knowledge into a single location.
+* Accessibility and ease-of-use. 
+* Student-friendly writing style that prioritizes intuition and understanding. 
+* Developed by ourselves, for ourselves. 
 
 ## How to use
 * Clone the git repo at https://github.com/uoft-chiplab/chip-experiment.git
@@ -31,13 +35,14 @@ Manual mkdocs commands that might be helpful include:
 Ordering is alphanumeric by default. Override this by adding a file named .pages written like a yaml. This uses the awesome-pages-plugin. Each folder needs its own .pages file. For this homepage, the folders reflect the general sequence of the experiment. Ex:
 
     nav:
-    - index.md
-    - useful-relations.md
-    - apparatus
-    - laser-cooling
-    - optical-pumping
-    - magnetic-trapping
-    - optical-dipole-trapping
-    - state-preparation
-    - imaging
-    - thermometry
+        - index.md
+        - useful-relations.md
+        - apparatus
+        - laser-cooling
+        - optical-pumping
+        - magnetic-trapping
+        - optical-dipole-trapping
+        - state-preparation
+        - imaging
+        - thermometry
+        - ... # everything else with alphanumeric sorting
