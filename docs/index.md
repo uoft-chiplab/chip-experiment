@@ -16,4 +16,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         lasercooling/
         test.md
+        test2.md
         ...       # Other markdown pages, images and other files.
