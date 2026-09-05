@@ -40,8 +40,3 @@ $$k_B T_D = \frac{\hbar \Gamma}{2}$$
 which is $\sim 145$ uK for both Rb and K.
 
 Consider all the assumptions that go into this Doppler limit -- balanced beams, low intensity, ideal geometry, max scattering -- and it becomes easy to see why our MOTs are usually somewhat hotter than this.
-
-## Sub-Doppler cooling
-[Needs work]
-
-Various techniques have been developed to cool below the Doppler limit. A common implementation is polarization gradient cooling. Beams of othogonal polarizations counterpropagate, and the interference a total polarization that rotates throughout space. Since polarization is a factor in the AC Stark shift (light shift) felt by an atomic state, atoms feel a spatially varying potential. If an atom can move up a potential hill and then get pumped back to the ground state, cooling can be achieved.
