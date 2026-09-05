@@ -16,7 +16,7 @@ A central repository for chip-lab-related physics and technical knowledge. Built
 
 Manual mkdocs commands that might be helpful include:
 
-* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs serve` - Start the live-reloading docs server. (The ci.yml script is designed to auto-deploy using GitHub Pages every time a push occurs, but if it breaks then you can manually create the server with this).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
