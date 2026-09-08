@@ -26,9 +26,9 @@ The bottom line is the most intuitive statement: it is a restoring force that is
 
 ## Experiment
 
-| Species| Trap | Repump | Acceptable typical power (Trap) | Acceptable typical power (RP) | Comments
-| :--- | :---: | :--- | :---  | :---  | :--- 
-| **Rb-87** | F=2 to F'=3| F=1 to F'=2 | 290 +/- 5% mW | ~5% of trap |RP intensity is small fraction of Trap; F'=2 and F'=3 are ~260 MHz separated (resolved).
-| **K-40** | F=9/2 to F'=11/2 | F=7/2 to F' = 9/2 | 290 +/- 5% mW| ~50(10)% of Trap | K-40 has inverted hyperfine so F'=11/2 is lowest energy in F' manifold; F' Zeeman spacing is ~40 MHz or $\sim 7 \Gamma$ (not well resolved) -> RP intensity and force is significant.
+| Species| Trap | Repump | Acceptable typical power (Trap) | Acceptable typical power (RP) | Beam radius | $I/I_\mathrm{sat}$ per beam (Trap)|Comments
+| :--- | :---: | :--- | :---  | :---  | :--- | :--- | :--- 
+| **Rb-87** | F=2 to F'=3| F=1 to F'=2 | 300 +/- 5% mW | ~5% of trap |$\sim 2$ cm | $2.3$ |RP intensity is small fraction of Trap; F'=2 and F'=3 are ~260 MHz separated (resolved).
+| **K-40** | F=9/2 to F'=11/2 | F=7/2 to F' = 9/2 | 300 +/- 5% mW| ~50(10)% of Trap |$\sim 2$ cm | $2.3$| K-40 has inverted hyperfine so F'=11/2 is lowest energy in F' manifold; F' Zeeman spacing is ~40 MHz or $\sim 7 \Gamma$ (not well resolved) -> RP intensity and force is significant.
 
 
