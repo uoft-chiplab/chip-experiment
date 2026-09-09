@@ -1,0 +1,15 @@
+/* Embedded Google Sheets (see hooks.py) */
+.gsheet {
+  margin: 1em 0;
+}
+.gsheet iframe {
+  width: 100%;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+}
+.gsheet-fallback {
+  margin: 0.3em 0 0;
+  font-size: 0.75em;
+  color: var(--md-default-fg-color--light);
+}

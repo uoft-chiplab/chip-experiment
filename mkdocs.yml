@@ -1,5 +1,5 @@
 site_name: Chip Experiment Docs
-site_url: https://chip-experiment-docs.com
+site_url: https://uoft-chiplab.github.io/chip-experiment/
 
 theme:
   name: material
@@ -21,6 +21,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+extra_css:
+  - stylesheets/extra.css
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
@@ -30,3 +33,5 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])'
 
+hooks:
+  - hooks.py
