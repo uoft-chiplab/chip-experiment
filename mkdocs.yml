@@ -9,6 +9,11 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
 
 markdown_extensions:
   - attr_list
@@ -22,4 +27,6 @@ extra_javascript:
 
 plugins:
   - awesome-pages
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])'
 

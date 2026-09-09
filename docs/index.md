@@ -5,8 +5,7 @@ A central repository for chip-lab-related physics and technical knowledge. Built
 ## Goals
 * Unify experiment-relevant knowledge into a single location.
 * Accessibility and ease-of-use. 
-* Student-friendly writing style that prioritizes intuition and understanding. 
-* Developed by ourselves, for ourselves. 
+* Student-friendly writing style that prioritizes intuition and understanding. Complicated derivations should be linked elsewhere.
 
 ## How to use
 * Clone the git repo at https://github.com/uoft-chiplab/chip-experiment.git
