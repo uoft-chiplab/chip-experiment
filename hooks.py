@@ -9,7 +9,7 @@ from the sheet's URL: .../d/<id>/edit?gid=<gid>).
 import re
 
 SHEETS = {  # name -> (spreadsheet id, gid)
-    "odt-calibration": ("1qCv8nCcFE9Q4doqnjptF11CEoNVKVvIUh7oMNYdZbDk", "1738004037"),
+    "odt-calibration": ("1qCv8nCcFE9Q4doqnjptF11CEoNVKVvIUh7oMNYdZbDk", "1029283282"),
 }
 
 DEFAULT_HEIGHT = 450

@@ -13,3 +13,8 @@
   font-size: 0.75em;
   color: var(--md-default-fg-color--light);
 }
+
+/* Use wide monitors: Material defaults to a 61rem page column. */
+.md-grid {
+  max-width: 100rem;
+}
