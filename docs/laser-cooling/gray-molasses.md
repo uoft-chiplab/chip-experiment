@@ -43,6 +43,7 @@ Explicitly, the transformation creates
 $$
 \Omega_1 e^{-i\omega_{L1}t}|e\rangle\langle g_1| \;\longrightarrow\; \Omega_1\,e^{i(\theta_e-\theta_{g_1}-\omega_{L1}t)}|e\rangle\langle g_1|
 $$
+
 $$
 \Omega_2 e^{-i\omega_{L2}t}|e\rangle\langle g_2| \;\longrightarrow\; \Omega_2\,e^{i(\theta_e-\theta_{g_2}-\omega_{L2}t)}|e\rangle\langle g_2|
 $$
@@ -64,6 +65,7 @@ Now we perform the transformation. Intuitively, the non-diagonal terms will beco
 $$
 |e\rangle:\quad \hbar\omega_e - \hbar\omega_{1} = -\hbar\Delta_1
 $$
+
 $$
 |g_2\rangle:\quad \hbar\omega_{\rm hf} - \hbar(\omega_{1}-\omega_{2}) = -\hbar\big[(\omega_{1}-\omega_{2}) - \omega_{\rm hf}\big] = -\hbar\delta
 $$
