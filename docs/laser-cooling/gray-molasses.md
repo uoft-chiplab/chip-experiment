@@ -41,17 +41,17 @@ and therefore we expect to see:
 Explicitly, the transformation creates
 
 $$
-\Omega_1 e^{-i\omega_{L1}t}|e\rangle\langle g_1| \;\longrightarrow\; \Omega_1\,e^{i(\theta_e-\theta_{g_1}-\omega_{L1}t)}|e\rangle\langle g_1|
+\Omega_1 e^{-i\omega_{1}t}|e\rangle\langle g_1| \;\longrightarrow\; \Omega_1\,e^{i(\theta_e-\theta_{g_1}-\omega_{1}t)}|e\rangle\langle g_1|
 $$
 
 $$
-\Omega_2 e^{-i\omega_{L2}t}|e\rangle\langle g_2| \;\longrightarrow\; \Omega_2\,e^{i(\theta_e-\theta_{g_2}-\omega_{L2}t)}|e\rangle\langle g_2|
+\Omega_2 e^{-i\omega_{2}t}|e\rangle\langle g_2| \;\longrightarrow\; \Omega_2\,e^{i(\theta_e-\theta_{g_2}-\omega_{2}t)}|e\rangle\langle g_2|
 $$
 
 Demanding that both exponents vanish (i.e: imposing stacisity) gives
 
 $$
-\boxed{\ \theta_e - \theta_{g_1} = \omega_{L1}t, \qquad \theta_e - \theta_{g_2} = \omega_{L2}t\ }
+\ \theta_e - \theta_{g_1} = \omega_{1}t, \qquad \theta_e - \theta_{g_2} = \omega_{2}t\ 
 $$
 
 Lastly, we stay consistent with fixing the energy of $\ket{g_1}$ to be zero and do some gauge-fixing by setting $\theta_{g_1} \to 0$ as well. This causes $\theta_e = \omega_1 t$ and $\theta_{g_2} = \omega_1 t - \omega_2 t$. The final unitary is
