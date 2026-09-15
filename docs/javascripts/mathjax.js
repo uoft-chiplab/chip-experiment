@@ -1,9 +1,16 @@
 window.MathJax = {
+  loader: { load: ["[tex]/physics"] },
   tex: {
     inlineMath: [["\\(", "\\)"]],
     displayMath: [["\\[", "\\]"]],
     processEscapes: true,
-    processEnvironments: true
+    processEnvironments: true,
+    packages: { "[+]": ["physics"] },
+    macros: {
+      // LaTeX kernel text symbols that MathJax's TeX input doesn't define
+      dag: "\\dagger",
+      ddag: "\\ddagger"
+    }
   },
   options: {
     ignoreHtmlClass: ".*|",
