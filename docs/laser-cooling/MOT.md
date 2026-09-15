@@ -26,6 +26,7 @@ The bottom line is the most intuitive statement: it is a restoring force that is
 
 ## Experiment
 The MOT transitions and powers are given here. Last updated September 2026.
+
 | Species| Transitions | Acceptable typical power (mW) | Beam radius (cm)| $I/I_\mathrm{sat}$ per beam (Trap)|Comments
 | :--- | :--- | :---  | :---  | :--- | :--- 
 | **Rb-87** | Trap: F=2 to F'=3<br>RP: F=1 to F'=2 | Trap: 300 +/- 5% <br>RP: ~5% of trap |$\sim 2$ | $2.3$ |RP intensity is small fraction of Trap; F'=2 and F'=3 are ~260 MHz separated (resolved).
