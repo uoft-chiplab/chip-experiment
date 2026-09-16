@@ -1,4 +1,4 @@
-# Quick overview
+## Quick overview
 
 Here I will compare the chip trap to the more commonly used Ioffe-Pritchard trap.
 - Chip wires + Zbias + Xbias =  Ioffe-Pritchard
@@ -67,11 +67,37 @@ Let us drive RF at some $\nu_\mathrm{rf}$ that is resonant with Zeeman splitting
 
 $$U \propto \mu (B_\mathrm{rf} - B_0)$$
 
-We have not calibrated $B_0$ in a very long time, but we do regularly observe that Rb-87 atoms completely disappear around $\nu_\mathrm{rf} \approx 2.1 $ MHz. We usually stop our rf evaporation around $\nu_\mathrm{rf} \approx 2.28 $ MHz. The trap depth is naively estimated to be on the order of $U \approx 10 \mu K$. This estimate seems small by a few factors, as the optical dipole trap depth is close to this as well.
+We have not calibrated $B_0$ in a very long time, but we do regularly observe that Rb-87 atoms completely disappear around $\nu_\mathrm{rf} \approx 2.1$ MHz. We usually stop our rf evaporation around $\nu_\mathrm{rf} \approx 2.28$ MHz. The trap depth is naively estimated to be on the order of $U \approx 10 \mu K$. This estimate seems small by a few factors, as the optical dipole trap depth is close to this as well.
 
 ### RF-dressed picture
 
-This is a lot harder to describe
+This is a lot harder to describe but unfortunately much closer to reality. 
+
+RF is applied by alternating current in (the light green) chip wires. It produces a time-varying magnetic field that adds to the existing trap; the interaction part of the Hamiltonian is
+
+$$H_\mathrm{int} = g_F \mu_B [\bm{B}(\bm{r}) + \bm{B}_\mathrm{rf}(\bm r) \cos(\omega_\mathrm{rf} t) ] \cdot \bm{F}$$
+
+Here we take the quantization ($z$) axis to be wherever the trapping field happens to point in time. Further let us remark that the portion of the RF drive parallel to $F_z$ commutes and does not contribute any dressing. To achieve the state mixing, only the perpendicular component matters:
+
+$$H_\mathrm{rf} = g_F \mu_B |\bm{B}_\mathrm{rf} \times \hat{b}| \cos (\omega_\mathrm{rf}t) F_z$$
+
+This will create many bothersome sine and cosine terms in the derivation. We apply a RWA and remove any time dependence by entering a rotating frame described by
+
+$$\tilde{H} = R^\dag H R - i\hbar \dot{R} R^\dag\,, \quad R(t) = e^{-i\omega_\mathrm{rf} t F_z}$$
+
+The Hamiltonian ultimately becomes
+
+$$H_\mathrm{eff} = \hbar \delta(r)F_z + \hbar \Omega(r)F_x \,, \quad \delta \equiv \omega_L(r) - \omega_\mathrm{rf}$$
+
+The appearance of the rf photon energy in the effective Hamiltonian implies that the eigenstates are "dressed states" -- these dressed states are superpositions of the bare Zeeman states $\ket{m_F}$ with connected by explicit photon numbers. The new dressed states can be thought of as rotations of the bare states
+
+$$\ket{m_F'} = R_Y(\theta) \ket{m_F}$$
+
+with eigenenergies
+
+$$\bra{m_F'} H_\mathrm{eff}(r) \ket{m_F'} = \hbar m_F'\sqrt{\delta^2 + \Omega^2}$$
+
+
 
 ## Extra notes
 
