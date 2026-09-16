@@ -9,7 +9,9 @@ window.MathJax = {
     macros: {
       // LaTeX kernel text symbols that MathJax's TeX input doesn't define
       dag: "\\dagger",
-      ddag: "\\ddagger"
+      ddag: "\\ddagger",
+      // bm package equivalent: \bm{x} renders as bold math (\boldsymbol)
+      bm: ["\\boldsymbol{#1}", 1]
     }
   },
   options: {
