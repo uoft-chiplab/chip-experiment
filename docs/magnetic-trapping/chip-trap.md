@@ -1,7 +1,7 @@
 ## Quick overview
 
-Here I will compare the chip trap to the more commonly used Ioffe-Pritchard trap.
-- Chip wires + Zbias + Xbias =  Ioffe-Pritchard
+The chip trap is the same as the more commonly used Ioffe-Pritchard trap. Explain why briefly here:
+...
 
 ## The magnetic fields
 
@@ -97,7 +97,27 @@ with eigenenergies
 
 $$\bra{m_F'} H_\mathrm{eff}(r) \ket{m_F'} = \hbar m_F'\sqrt{\delta^2 + \Omega^2}$$
 
+The energies of the dressed states as a function of position are
 
+<figure markdown>
+  ![RF dressed states for Rb-87, F=2](imgs/rfdressedstates.png){ width="800" }
+  Image taken from Fig. 6.6 of Marcius Extavour's PhD thesis, 2009.
+</figure>
+
+Salient and odd details:
+
+- The trapping state is actually adiabatically connected with $m_F=-2$ rather than $m_F=2$. Which is funky, but remember that in the dressed state basis all states have mixed together in a sense.
+- The trap depth is funky to estimate because you need to reference the trap bottom to the height of the "walls". Here it is about 30 kHz in sub figure (d) or 1.4 uK.
+- The location of the two wells depends on the RF drive frequency (remember it selects shells of energy), so as one ramps the RF the turning points move towards the origin. This is actually how atoms get forcibly ejected.
+- I'm not convinced that all atoms in $m_F=2$ adiabatically follow the dark black line forever. They effectively go past an avoided crossing; doesn't this adiabatically transform $m_F=2 \to m_F=-2$ and $m_F=-2 \to m_F=2$ (in the bare state basis)?
+
+#### Trap depth
+
+Ignoring the curvature of the wells, we still estimate the trap depth as 
+
+$$U \sim h m_F(\nu_{rf} - \nu_0)$$
+
+Where the factor of $m_F$ accounts for the fact that the trapping dressed potential is 2 units away from the zero-energy state. 
 
 ## Extra notes
 
@@ -106,4 +126,10 @@ $$\bra{m_F'} H_\mathrm{eff}(r) \ket{m_F'} = \hbar m_F'\sqrt{\delta^2 + \Omega^2}
 
 ## Experiment
 
-Table of experiment phases and typically applied values in sequencer with interpreted A or G
+| Phase | B-fields or currents | RF amp and freq | Other comments 
+| :--- | :---- | :---- | :---- 
+| XFER | XYZ biases during load: set at some value to maximize N.<br>Chip trap: Zbias = 9.935 A (assumed; implies 21.9 G)<br>Xbias=2A ( assumed), implies 2.2 G<br>Zwire=2A, implies ? G|||
+| Chip | Decompress: Zbias / 2, Zwire / 2|Amp=2V, reduce to 0.55 V during decompress stage<br>Freq ramps from 19.5 MHz to ~2.27 MHz over ~6s.|Decompression helps fight high-density losses. 6s is for typical cooling cycle on K-40; if cooling Rb to BEC possible to evap much faster ~2s. Final K-40 temperature sensitive to RF endpoint; want to cool K-40 but leave enough Rb to do optical evap later.|
+| ODT | B-fields ramp to zero during ODT handoff. Xbias ramps to zero during ARP, ramps back on during optical evap (also to avoid Majorana loss)||| 
+|Imaging|Typical imaging should be completely off. If in-situ chip trap imaging, leave on Zbias and Zwire.|||
+

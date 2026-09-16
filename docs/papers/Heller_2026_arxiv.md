@@ -36,7 +36,6 @@ So there is coupling between $\Pi$ and $\mathcal{E}$. We seek to explore this ev
 
 In a drive-dominated regime where $t_\mathrm{sweep} \ll \tau_\mathrm{relaxation}$, or in other words $|\dot{u}| = k_F|\partial_t a^{-1}| \gg \tau_\Pi^{-1}$, all time dependence drops out and is replaced by magnitude of $|\dot{u}|$.
 
-
 ## Proposed observation
 
 Plot variance ratio of $\Pi$ and $\mathcal{E}$ over range of initial conditions and show dimensional reduction. 
@@ -65,6 +64,8 @@ $$\Pi (t) = \frac{C(t) - C_{eq}(\theta(t))}{12\pi m a(t)}$$
 
 $E_F \sim h\times 16$ kHz with typical trap, and $k_F^{-1} \approx 1680 a_0$. Ramp rate over field is $d|k_Fa|^{-1} / dB \approx 1.3 G^{-1}$. (This is 4 times smaller than their proposal using a $E_F = 1$ kHz). 
 
-What is our slew rate? I know we were able to achieve 1 MHz drives implying period of 1 us; B-field ampltiude about 100 mG (not upper bound); peak-to-peak is then 200 mG. This implies field slew of $>200 G/ms$. (NEED TO VERIFY). So then $|\dot{u}| = \partial_t |k_Fa|^{-1} \sim 260$ kHz. This is about a factor of 2 lower than their proposed numbers but may be within the drive limit as $|\dot{u}| \sim 9 \tau_\Pi^{-1}$.
+What is our slew rate? I know we were able to achieve 1 MHz drives implying period of 1 us; B-field ampltiude about 100 mG (not upper bound); peak-to-peak is then 200 mG. This implies field slew of $>200 G/ms$. (NEED TO VERIFY). So then $|\dot{u}| = \partial_t |k_Fa|^{-1} \sim 260$ kHz. Now they estimate $\tau_\Pi$ at high temperature ($\theta=3$) to be 33 us; but for us since $E_F$ is 16 times larger our $\tau$ is 16 times smaller or 2 us = 500 kHz.
+
+We reach $|\dot{u}| \sim 0.5 \tau_\Pi^{-1}$. To achieve the correct hierarchy we require more slew rate or smaller $E_F$. Temperature could also help depending on how they estimate.
 
   
