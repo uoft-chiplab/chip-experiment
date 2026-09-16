@@ -1,11 +1,7 @@
 # Quick overview
 
-Here there will be many figures.
-
+Here I will compare the chip trap to the more commonly used Ioffe-Pritchard trap.
 - Chip wires + Zbias + Xbias =  Ioffe-Pritchard
-- loading
-- rf evap (rf dressing)
-
 
 ## The magnetic fields
 
@@ -63,12 +59,19 @@ A surprising facet of all this is that the max trapped atom number from the chip
 
 ## Forced rf evaporation
 
+We can cool atoms by forcibly spin-flipping the hotter atoms out of the trap and allowing the rest to collisionally thermalize. Hotter atoms sample regions further out in space. The evaporation should begin at a shell of some $B(r)$ and ramp its way down towards the center of the trap.
+
 ### Essential picture
 
+Let us drive RF at some $\nu_\mathrm{rf}$ that is resonant with Zeeman splitting (and perhaps with some thermal energy compensation ignored here): $h\nu_\mathrm{rf} = g_F \mu_B |B(r)|$. The RF will hit atoms that are on a shell of energy, flip them to untrappable states, and leave. We ramp this rf knife at a rate tuned to make evaporation efficient depending on the collision rate, $T$, $\eta$, etc. The trap depth at the end of evaporation is
 
+$$U \propto \mu (B_\mathrm{rf} - B_0)$$
+
+We have not calibrated $B_0$ in a very long time, but we do regularly observe that Rb-87 atoms completely disappear around $\nu_\mathrm{rf} \approx 2.1 $ MHz. We usually stop our rf evaporation around $\nu_\mathrm{rf} \approx 2.28 $ MHz. The trap depth is naively estimated to be on the order of $U \approx 10 \mu K$. This estimate seems small by a few factors, as the optical dipole trap depth is close to this as well.
 
 ### RF-dressed picture
 
+This is a lot harder to describe
 
 ## Extra notes
 
@@ -76,3 +79,5 @@ A surprising facet of all this is that the max trapped atom number from the chip
 - corrections due to finite length and width of wires
 
 ## Experiment
+
+Table of experiment phases and typically applied values in sequencer with interpreted A or G
