@@ -42,7 +42,7 @@ In a drive-dominated regime where $t_\mathrm{sweep} \ll \tau_\mathrm{relaxation}
 Plot variance ratio of $\Pi$ and $\mathcal{E}$ over range of initial conditions and show dimensional reduction. 
 
 <figure markdown>
-  ![Variance evolution](imgs/heller_attractor.png){ width="400" }
+  ![Variance evolution](imgs/heller_attractor.png){ width="800" }
   Dimensional reduction manifests as significant change in variance ratio of the energy-bulk-pressure coupled state space.
 </figure>
 
